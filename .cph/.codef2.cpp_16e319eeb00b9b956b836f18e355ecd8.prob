@@ -1,0 +1,1 @@
+{"name":"Local: codef2","url":"c:\\Users\\DEEPAK REDDY\\Desktop\\new\\PW G\\codef2.cpp","tests":[{"id":1665847437555,"input":"4\n8\n0 0 1 1 1 1 1 1\n5\n1 0 0 1 1\n2\n1 0\n11\n1 1 0 0 1 0 0 1 1 1 0\n","output":"0\n1\n1\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DEEPAK REDDY\\Desktop\\new\\PW G\\codef2.cpp","group":"local","local":true}

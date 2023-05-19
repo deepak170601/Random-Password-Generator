@@ -1,0 +1,1 @@
+{"name":"Local: dll","url":"c:\\Users\\DEEPAK REDDY\\Desktop\\new\\PW G\\dll.c","tests":[{"id":1665853793544,"input":"f 10\nt 11\nt 15\nt 26\nt 24\nt 35\nt 47\np 5 4\nf 0\np 2 2\ne","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DEEPAK REDDY\\Desktop\\new\\PW G\\dll.c","group":"local","local":true}
