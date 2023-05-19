@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("pass1.jpg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  box-shadow: 0px 3px 10px rgba(33, 31, 31, 0.2);
+  padding: 40px;
+  width: 350px;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-large {
+  border-radius: 1.5rem;
+  background-color: #e74c3c;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-large:hover {
+  background-color: #c0392b;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
